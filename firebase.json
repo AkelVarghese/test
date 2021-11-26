@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/stc-staff-public-profile",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
